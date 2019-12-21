@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: nginx:1.16
+    volumes:
+      - ./frontend/dist:/usr/share/nginx/html
+    ports:
+      - 3301:80
+      - 3302:443

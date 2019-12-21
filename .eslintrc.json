@@ -1,0 +1,58 @@
+{
+    "extends": "airbnb",
+    "plugins":[
+        "react",
+        "jest",
+        "jsx-a11y",
+        "import"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "settings":{
+    },
+    "rules": {
+        "react/jsx-filename-extension": "off",
+        "react/require-default-props": "off",
+        "react/forbid-prop-types": "off",
+        "react/destructuring-assignment": "off",
+        "react/jsx-curly-newline": "off",
+        "react/static-property-placement": "off",
+        "react/no-unused-state": "off",
+        "no-target-blank": "off",
+        "quotes": ["error", "double"],
+        "space-infix-ops": "error",
+        "linebreak-style": 0,
+        "import/prefer-default-export": 0,
+        "no-mixed-operators": 0,
+        "no-plusplus": 0,
+        "react/sort-comp": 0,
+        "no-param-reassign": 0,
+        "no-unused-expressions": 0,
+        "jsx-a11y/label-has-for": 0,
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "jsx-a11y/mouse-events-have-key-events": "off",
+        "no-console": "off",
+        "no-alert": "off",
+        "function-paren-newline": "off",
+        "object-curly-newline": "off",
+        "no-restricted-globals": "off",
+        "import/no-extraneous-dependencies": "off",
+        "prefer-destructuring": "off",
+        "dot-notation": "off",
+        "camelcase": ["error", {"properties": "never", "ignoreDestructuring": true}],
+        "indent": ["off"],
+        "react/jsx-indent": ["warn", 2],
+        "react/jsx-no-target-blank": "error",
+        "jsx-a11y/anchor-has-content": "off"
+    },
+    "env": {
+        "browser": true,
+        "jest": true
+    }
+}
